@@ -9,6 +9,18 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <description>公共模块</description>
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+    </dependencies>
+
+
     <artifactId>daocao_common</artifactId>
 
     <properties>
