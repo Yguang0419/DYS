@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/entity/UmsSysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="定义公共模块" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -133,11 +128,35 @@
       <workItem from="1718096347710" duration="4159000" />
       <workItem from="1718113764879" duration="23000" />
       <workItem from="1718113999901" duration="103000" />
-      <workItem from="1718152041669" duration="1817000" />
+      <workItem from="1718152041669" duration="2125000" />
     </task>
+    <task id="LOCAL-00001" summary="定义公共模块">
+      <option name="closed" value="true" />
+      <created>1718154156896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718154156896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="定义公共模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="定义公共模块" />
   </component>
 </project>
