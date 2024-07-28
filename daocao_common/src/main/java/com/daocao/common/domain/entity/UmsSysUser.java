@@ -1,4 +1,4 @@
-package com.daocao.auth.domain.entity;
+package com.daocao.common.domain.entity;
 
 
 
@@ -37,7 +37,10 @@ public class UmsSysUser implements Serializable {
 
 //    角色信息
     @TableField(exist = false)
-    private List<Long> roleList = new ArrayList<>();
+    private List<UmsRole> roleList = new ArrayList<>();
+//    权限
+    @TableField(exist = false)
+    private List<String> perms = new ArrayList<>();
 
 
 }

@@ -1,7 +1,7 @@
-package com.daocao.auth.service;
+package com.daocao.common.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.daocao.auth.domain.entity.UmsSysUser;
+import com.daocao.common.domain.entity.UmsSysUser;
 
 public interface IUmsSysUserService extends IService<UmsSysUser> {
 }

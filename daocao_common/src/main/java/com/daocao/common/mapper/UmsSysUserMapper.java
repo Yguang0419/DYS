@@ -1,7 +1,7 @@
-package com.daocao.auth.mapper;
+package com.daocao.common.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.daocao.auth.domain.entity.UmsSysUser;
+import com.daocao.common.domain.entity.UmsSysUser;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

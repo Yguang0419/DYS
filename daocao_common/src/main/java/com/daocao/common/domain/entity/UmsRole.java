@@ -1,4 +1,4 @@
-package com.daocao.auth.domain.entity;
+package com.daocao.common.domain.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;

@@ -1,9 +1,9 @@
-package com.daocao.auth.service.impl;
+package com.daocao.common.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.daocao.auth.domain.entity.UmsRole;
-import com.daocao.auth.mapper.UmsRoleMapper;
-import com.daocao.auth.service.IUmsRoleService;
+import com.daocao.common.domain.entity.UmsRole;
+import com.daocao.common.mapper.UmsRoleMapper;
+import com.daocao.common.service.IUmsRoleService;
 import org.springframework.stereotype.Service;
 
 @Service

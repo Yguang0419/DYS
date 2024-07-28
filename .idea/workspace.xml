@@ -5,49 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="定义公共模块">
-      <change afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsSysUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daocao_sys_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cody_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/assets/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/TheWelcome.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/WelcomeItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconCommunity.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconDocumentation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconEcosystem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconSupport.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconTooling.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/views/AboutView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/views/HomeView.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_admin_page/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/vite.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/entity/UmsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/entity/UmsRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/entity/UmsSysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsSysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/mapper/UmsMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/mapper/UmsRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/mapper/UmsSysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsSysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/IUmsMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsMenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/IUmsRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/IUmsSysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsSysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/impl/UmsMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/impl/UmsRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/impl/UmsSysUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/testCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_auth/src/main/java/testCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/response/DaocaoResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/response/DaocaoResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_stater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_stater/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_stater/src/main/java/com/stt/stater/DaocaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_stater/src/main/java/com/daocao/DaocaoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_support/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_support/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsSysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsSysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsSysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsSysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsSysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsSysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsSysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsSysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_stater/src/main/java/com/daocao/DaocaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_stater/src/main/java/com/daocao/DaocaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_sys_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_sys_user/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +244,7 @@
       <workItem from="1722060426906" duration="6465000" />
       <workItem from="1722082159709" duration="3797000" />
       <workItem from="1722130990195" duration="3422000" />
-      <workItem from="1722163175463" duration="1795000" />
+      <workItem from="1722163175463" duration="2288000" />
     </task>
     <task id="LOCAL-00001" summary="定义公共模块">
       <option name="closed" value="true" />
@@ -291,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718154267930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="定义公共模块">
+      <option name="closed" value="true" />
+      <created>1722166876368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722166876368</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
