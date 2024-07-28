@@ -1,8 +1,6 @@
 package com.daocao.auth.domain.entity;
 
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -12,7 +10,7 @@ import java.time.LocalDateTime;
 @TableName("ums_role")
 public class UmsRole implements Serializable {
     @TableId
-    private Long id;
+    private Long roleId;
 
     private String roleLabel;
     private String roleName;
@@ -21,10 +19,12 @@ public class UmsRole implements Serializable {
 
     private String creator;
     private String updater;
+    @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createTime;
+    @TableField(fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime updateTime;
     private String remark;
     @TableLogic
-    private Integer delFlag;
+    private Integer deleted;
 
 }

@@ -2,13 +2,13 @@ package com.daocao.auth.domain.entity;
 
 
 
-import com.baomidou.mybatisplus.annotation.TableId;
-import com.baomidou.mybatisplus.annotation.TableLogic;
-import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @TableName("ums_sys_user")
@@ -23,15 +23,21 @@ public class UmsSysUser implements Serializable {
     private Integer sex;
     private String avatar;
     private String password;
-    private String status;
+    private Integer status;
     private String creator;
     private String updater;
+    @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createTime;
+    @TableField(fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime updateTime;
     private String remark;
 //    逻辑删除，mybatis-plus默认0是未删除，1是已删除
     @TableLogic
-    private Integer delFlag;
+    private Integer deleted;
+
+//    角色信息
+    @TableField(exist = false)
+    private List<Long> roleList = new ArrayList<>();
 
 
 }

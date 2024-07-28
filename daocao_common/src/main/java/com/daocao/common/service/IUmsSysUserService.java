@@ -1,4 +1,4 @@
-package com.daocao.auth.domain.service;
+package com.daocao.auth.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.daocao.auth.domain.entity.UmsSysUser;

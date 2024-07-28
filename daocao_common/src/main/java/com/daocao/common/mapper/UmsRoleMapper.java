@@ -1,4 +1,4 @@
-package com.daocao.auth.domain.mapper;
+package com.daocao.auth.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.daocao.auth.domain.entity.UmsRole;
