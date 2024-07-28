@@ -4,11 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="定义公共模块" />
+    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="定义公共模块">
+      <change afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsSysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daocao_sys_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/cody_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cody_history.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/assets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/components/icons/IconTooling.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/views/AboutView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/views/HomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_admin_page/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/entity/UmsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/entity/UmsRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/entity/UmsSysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsSysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/mapper/UmsMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/mapper/UmsRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/mapper/UmsSysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsSysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/IUmsMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/IUmsRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/IUmsSysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsSysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/impl/UmsMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/impl/UmsRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/domain/service/impl/UmsSysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_auth/src/main/java/testCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_auth/src/main/java/testCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/response/DaocaoResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/response/DaocaoResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_stater/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_stater/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_stater/src/main/java/com/stt/stater/DaocaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_stater/src/main/java/com/daocao/DaocaoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_support/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_support/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+    </option>
   </component>
   <component name="CodyActiveAccount">
     <option name="activeAccountId" value="VXNlcjoxOTMzOTA=" />
@@ -22,6 +71,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -56,32 +110,68 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkSpace/JAVA/Daocao/daocao_support/src/main/java/com/daocao/support/config/SpringSecerity&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5ba16cc4b99081e25a5d805a7d197cfe&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;583a1d8acf94085f49d42850d476ac01&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\IntelliJ IDEA 2023.1.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
+    ]
   }
 }</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_support\src\main\java\com\daocao\support\config\SpringSecerity" />
+      <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_common\src\main\java\com\daocao\common\domain\vo" />
+      <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_auth\src\main\resources\mapper" />
+      <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_common\src\main\java\com\daocao\common\utils" />
+      <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_sys_user" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.daocao.common.constants" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.daocao.auth.controller" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DaocaoApplication">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Daocao" />
+    <configuration name="GMT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daocao.GMT" />
+      <module name="daocao_stater" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daocao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="运行单个请求">
+      <method v="2" />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Daocao" />
@@ -98,10 +188,10 @@
     </configuration>
     <configuration name="DaocaoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="daocao_stater" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stt.stater.DaocaoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.daocao.DaocaoApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.stt.stater.*" />
+          <option name="PATTERN" value="com.daocao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,7 +202,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DaocaoApplication" />
-        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.GMT" />
+        <item itemvalue="HTTP 请求.generated-requests | #5" />
+        <item itemvalue="HTTP 请求.generated-requests | #3" />
+        <item itemvalue="HTTP 请求.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +221,59 @@
       <workItem from="1718096347710" duration="4159000" />
       <workItem from="1718113764879" duration="23000" />
       <workItem from="1718113999901" duration="103000" />
-      <workItem from="1718152041669" duration="2125000" />
+      <workItem from="1718152041669" duration="3898000" />
+      <workItem from="1718194775589" duration="3344000" />
+      <workItem from="1718198155141" duration="915000" />
+      <workItem from="1718275794334" duration="4080000" />
+      <workItem from="1718280092142" duration="1216000" />
+      <workItem from="1718282296048" duration="279000" />
+      <workItem from="1718328209363" duration="2151000" />
+      <workItem from="1718335994858" duration="337000" />
+      <workItem from="1718347755727" duration="1243000" />
+      <workItem from="1718359384687" duration="1926000" />
+      <workItem from="1718419428594" duration="11844000" />
+      <workItem from="1718446204856" duration="6702000" />
+      <workItem from="1718455257347" duration="1369000" />
+      <workItem from="1718509512204" duration="7293000" />
+      <workItem from="1718521488423" duration="4381000" />
+      <workItem from="1718537294325" duration="1199000" />
+      <workItem from="1718541621772" duration="3426000" />
+      <workItem from="1718582747502" duration="4605000" />
+      <workItem from="1718591590101" duration="94000" />
+      <workItem from="1718606484537" duration="6589000" />
+      <workItem from="1718615446059" duration="3454000" />
+      <workItem from="1718627699049" duration="76000" />
+      <workItem from="1718670005167" duration="4724000" />
+      <workItem from="1718694791057" duration="1561000" />
+      <workItem from="1719061007592" duration="216000" />
+      <workItem from="1719362762327" duration="572000" />
+      <workItem from="1719363838183" duration="1485000" />
+      <workItem from="1719385733259" duration="2985000" />
+      <workItem from="1719451036944" duration="7032000" />
+      <workItem from="1719484294678" duration="6947000" />
+      <workItem from="1719538528913" duration="3781000" />
+      <workItem from="1719558111526" duration="2575000" />
+      <workItem from="1719571256513" duration="6133000" />
+      <workItem from="1719632794756" duration="6258000" />
+      <workItem from="1719660008888" duration="4178000" />
+      <workItem from="1719714655051" duration="2103000" />
+      <workItem from="1719747770714" duration="2277000" />
+      <workItem from="1719802632842" duration="2236000" />
+      <workItem from="1721304497712" duration="6940000" />
+      <workItem from="1721379421729" duration="7446000" />
+      <workItem from="1721443248849" duration="16716000" />
+      <workItem from="1721554629581" duration="2933000" />
+      <workItem from="1721609200329" duration="214000" />
+      <workItem from="1721618611445" duration="7405000" />
+      <workItem from="1721648584671" duration="3592000" />
+      <workItem from="1721698926467" duration="10554000" />
+      <workItem from="1721782178592" duration="13107000" />
+      <workItem from="1721904629423" duration="2822000" />
+      <workItem from="1721956637617" duration="13553000" />
+      <workItem from="1722060426906" duration="6465000" />
+      <workItem from="1722082159709" duration="3797000" />
+      <workItem from="1722130990195" duration="3422000" />
+      <workItem from="1722163175463" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="定义公共模块">
       <option name="closed" value="true" />
@@ -138,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718154156896</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="定义公共模块">
+      <option name="closed" value="true" />
+      <created>1718154267930</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718154267930</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +302,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -158,5 +323,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="定义公共模块" />
     <option name="LAST_COMMIT_MESSAGE" value="定义公共模块" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/controller/UmSysUserController.java</url>
+          <line>15</line>
+          <properties field="sysUserService" class="com.daocao.auth.controller.UmSysUserController" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/controller/UmSysUserController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/dys/auth/controller/DysAuthoController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/dys/auth/controller/DysAuthoController.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((DisabledException)e).cause" custom="org.springframework.security.authentication.DisabledException" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

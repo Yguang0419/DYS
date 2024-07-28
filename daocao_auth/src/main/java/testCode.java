@@ -1,4 +1,4 @@
-import com.daocao.auth.domain.entity.UmsSysUser;
+import com.daocao.common.domain.entity.UmsSysUser;
 
 public class testCode {
     public static void main(String[] args) {

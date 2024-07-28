@@ -52,7 +52,7 @@ public class DaocaoResult extends HashMap<String, Object> {
     public DaocaoResult(int code, String msg, Object data) {
         super.put(CODE_TAG, code);
         super.put(MSG_TAG, msg);
-        if (ObjectUtil.isNull(data)) {
+        if (ObjectUtil.isNotNull(data)) {
             super.put(DATA_TAG, data);
         }
     }
