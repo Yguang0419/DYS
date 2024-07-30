@@ -13,6 +13,7 @@
         <module>daocao_support</module>
         <module>daocao_auth</module>
         <module>daocao_stater</module>
+        <module>daocao_sys_user</module>
     </modules>
 
     <properties>
@@ -127,7 +128,6 @@
                 <artifactId>daocao_common</artifactId>
                 <version>${daocao.version}</version>
             </dependency>
-
             <dependency>
                 <groupId>com.daocao</groupId>
                 <artifactId>daocao_auth</artifactId>

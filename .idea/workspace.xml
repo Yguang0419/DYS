@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="定义公共模块">
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsSysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/domain/entity/UmsSysUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsSysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/mapper/UmsSysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsMenuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsRoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsSysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/IUmsSysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsMenuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsRoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsSysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/service/impl/UmsSysUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_stater/src/main/java/com/daocao/DaocaoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_stater/src/main/java/com/daocao/DaocaoApplication.java" afterDir="false" />
+    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="dys v1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/daocao_sys_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_sys_user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +35,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,8 +50,14 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
   <component name="PerforceDirect.Settings">
     <option name="ENABLED" value="false" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2hiJgkekoTfXECL7j32bKgatKl1" />
   <component name="ProjectLevelVcsManager">
@@ -81,9 +78,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;gitdev&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkSpace/JAVA/Daocao/daocao_support/src/main/java/com/daocao/support/config/SpringSecerity&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Code_Git/daocao_study-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -92,7 +89,7 @@
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;583a1d8acf94085f49d42850d476ac01&quot;,
     &quot;ts.external.directory.path&quot;: &quot;F:\\IntelliJ IDEA 2023.1.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -244,7 +241,15 @@
       <workItem from="1722060426906" duration="6465000" />
       <workItem from="1722082159709" duration="3797000" />
       <workItem from="1722130990195" duration="3422000" />
-      <workItem from="1722163175463" duration="2288000" />
+      <workItem from="1722163175463" duration="4513000" />
+      <workItem from="1722223080184" duration="2132000" />
+      <workItem from="1722240900749" duration="3652000" />
+      <workItem from="1722244999763" duration="480000" />
+      <workItem from="1722247383871" duration="2825000" />
+      <workItem from="1722252948500" duration="3766000" />
+      <workItem from="1722302777969" duration="8000" />
+      <workItem from="1722304463364" duration="279000" />
+      <workItem from="1722305419921" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="定义公共模块">
       <option name="closed" value="true" />
@@ -270,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722166876368</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dys v1.0">
+      <option name="closed" value="true" />
+      <created>1722167078481</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722167078481</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +314,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="定义公共模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="定义公共模块" />
+    <MESSAGE value="dys v1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="dys v1.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,5 +348,9 @@
         <watch expression="((DisabledException)e).cause" custom="org.springframework.security.authentication.DisabledException" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -8,8 +8,9 @@
         <artifactId>Daocao</artifactId>
         <version>1.0.0</version>
     </parent>
+
     <artifactId>daocao_common</artifactId>
-    <description>公共模块</description>
+    <description>稻草公共模块</description>
 
     <dependencies>
         <dependency>

@@ -8,7 +8,7 @@
         <artifactId>Daocao</artifactId>
         <version>1.0.0</version>
     </parent>
-
+<!--    <description>用户模块</description>-->
     <artifactId>daocao_sys_user</artifactId>
 
     <dependencies>
