@@ -1,0 +1,90 @@
+POST http://localhost:8099/dys
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=7A222BD56E8E9C9359367E61427177D0
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-07-21T164422.200.html
+
+###
+
+POST http://localhost:8099/dys
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=7A222BD56E8E9C9359367E61427177D0
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-07-21T164356.200.html
+
+###
+
+GET http://localhost:8099/auth
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=09EBD382A131FECC57524C7FC41379A7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-16T134430.200.txt
+
+###
+
+GET http://localhost:8099/auth
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=09EBD382A131FECC57524C7FC41379A7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-16T134411.200.txt
+
+###
+
+GET http://localhost:8099/auth
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=09EBD382A131FECC57524C7FC41379A7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-06-16T134353.200.txt
+
+###
+
+GET http://localhost:8099/ums/sysuser
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=09EBD382A131FECC57524C7FC41379A7
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/ums/sysuser
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=B0D0037DF33051A6AFD910F1AD2E5589
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/ums/sysuser
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=B0D0037DF33051A6AFD910F1AD2E5589
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:8099/ums/sysuser
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=B0D0037DF33051A6AFD910F1AD2E5589
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8099/ums/sysuser
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+

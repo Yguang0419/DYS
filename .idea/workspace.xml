@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="dys v1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/daocao_sys_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/daocao_sys_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daocao_admin_page/src/testAi.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="gitdev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +75,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;gitdev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev__2024__8__6&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Code_Git/daocao_study-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -250,6 +247,13 @@
       <workItem from="1722302777969" duration="8000" />
       <workItem from="1722304463364" duration="279000" />
       <workItem from="1722305419921" duration="35000" />
+      <workItem from="1722340123125" duration="704000" />
+      <workItem from="1722494150863" duration="27000" />
+      <workItem from="1722684413313" duration="638000" />
+      <workItem from="1722781642175" duration="550000" />
+      <workItem from="1722843854293" duration="19000" />
+      <workItem from="1722950393942" duration="4432000" />
+      <workItem from="1722994082445" duration="1882000" />
     </task>
     <task id="LOCAL-00001" summary="定义公共模块">
       <option name="closed" value="true" />
@@ -283,7 +287,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722167078481</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dys v1.0">
+      <option name="closed" value="true" />
+      <created>1722340223391</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722340223391</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dys v1.0">
+      <option name="closed" value="true" />
+      <created>1722952548191</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722952548191</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dys v1.0">
+      <option name="closed" value="true" />
+      <created>1722994329821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722994329821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +368,11 @@
           <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/dys/auth/controller/DysAuthoController.java</url>
           <line>30</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/utils/JwtUtils.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

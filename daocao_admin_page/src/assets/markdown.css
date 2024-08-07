@@ -1,0 +1,529 @@
+/********************************************
+---
+    标题: Markdown CSS 自定义及注解.css
+    作者: 梦幻之心星    ky-seeker@qq.com
+    标签: [Markdown,CSS,博客园,Typora,Markdown_Nice,Markdown_Here]
+    目录: [Markdown]
+    日期: 2021-1-3
+    版本：V1.6
+    说明：
+      - 祖先选择器：使用祖先选择器，使样式仅适用于特定平台，而不会影响其他平台和控件组件
+          - Typora：[#write]
+          - Markdown_Nice：[#nice]
+          - Markdown_Here：[.markdown-here-wrapper]
+          - 博客园：[#cnblogs_post_body]
+      - 博客园:皮肤为CodingLife
+      - Typora:主题文件夹下创建的“base.user.css”应用于所有主题，"{theme-css-name}.user.css"仅应用于相应主题。
+      - markdown_here:不支持[::before]和[::after]，需要将前缀和后缀合并到本体中。
+
+---
+********************************************/
+
+/********************************************
+******全局属性
+******代码
+******段落格式
+******链接
+******图片
+******引用
+******列表
+******定义列表
+******任务列表
+******目录
+******表格
+******标题
+******数学公式
+******画图
+********************************************/
+
+/*================代码开始=============*/
+
+#cnblogs_post_body pre {
+    line-height: 1.2em;
+  }
+  
+  #cnblogs_post_body pre,
+  #cnblogs_post_body code {
+    font-family: Consolas, Inconsolata, Courier, monospace;
+  }
+  
+  /*代码整体样式*/
+  
+  #cnblogs_post_body code {
+    font-size: 14px;
+    margin: 0 0.15em;
+    padding: 2px 4px;
+    border: 1px solid #eaeaea;
+    /*圆角框*/
+    border-radius: 3px;
+    background: #eff2f3 !important;
+  }
+  
+  /*代码块*/
+  
+  #cnblogs_post_body pre code {
+    white-space: pre;
+    /*如果内容被修剪，显示滚动条以便查看其余内容。*/
+    overflow: auto-flow;
+    padding: 0.5em 0.7em;
+    display: block !important;
+  }
+  
+  /* 行内代码、列表内代码 */
+  
+  #cnblogs_post_body p code,
+  #cnblogs_post_body li code {
+    font-size: 14px !important;
+    color: #3594f7 !important;
+    padding: 0 2px;
+    display: inline;
+  }
+  
+  /*================代码结束=============*/
+  
+  /*================段落格式开始=============*/
+  
+  /********暂无：下标、上标、高亮、脚注********/
+  
+  /*段落*/
+  
+  #cnblogs_post_body p {
+    color: #595959;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    /*字间距*/
+    letter-spacing: 0px;
+    font-size: 16px;
+    /*词间距*/
+    word-spacing: 0px;
+    /*首行缩进*/
+    text-indent: 0em;
+    /*文本对齐 */
+    text-align: justify;
+    /* 空白字符的显示 */
+    white-space: pre-wrap !important;
+    /* 长度超过一行的单词换行方法  */
+    word-wrap: break-word !important;
+    /* 非中日韩单词换行方法 */
+    word-break: break-all !important;
+  }
+  
+  /* 加粗 */
+  
+  #cnblogs_post_body strong {
+    font-weight: bold;
+    color: #3594f7 !important;
+  }
+  
+  #cnblogs_post_body strong::before {
+    content: "「";
+  }
+  
+  #cnblogs_post_body strong::after {
+    content: "」";
+  }
+  
+  /* 斜体 */
+  
+  #cnblogs_post_body em {
+    font-style: italic;
+    color: #3594f7 !important;
+  }
+  
+  #cnblogs_post_body em::before {
+    content: "『";
+  }
+  
+  #cnblogs_post_body em::after {
+    content: "』";
+  }
+  
+  #cnblogs_post_body strong em::before,
+  #cnblogs_post_body em strong::before {
+    content: none;
+  }
+  
+  #cnblogs_post_body strong em::after,
+  #cnblogs_post_body em strong::after {
+    content: none;
+  }
+  
+  /* 删除线 */
+  
+  #cnblogs_post_body s {
+    font-style: italic;
+    color: red !important;
+  }
+  
+  /*水平分隔线*/
+  
+  #cnblogs_post_body hr {
+    /*元素的高度*/
+    height: 1px;
+    /*外边距*/
+    margin: 1em 0px;
+    /*内边距*/
+    padding: 0;
+    /*边框*/
+    border: none;
+    border-top: 2px solid #3baafa !important;
+  }
+  
+  #cnblogs_post_body kbd {
+    font-family: monospace;
+    background-color: #ebdfdf !important;
+    border: 1px solid #ccc !important;
+    border-radius: 5px;
+    padding: 1px 5px;
+  }
+  
+  #cnblogs_post_body video {
+    width: auto;
+    height: auto;
+    border: 1px solid #3baafa;
+    object-position: center center;
+    object-fit: contain;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  
+  /*================段落格式结束=============*/
+  
+  /*================链接开始=============*/
+  
+  /*超链接*/
+  
+  #cnblogs_post_body a {
+    text-decoration: underline;
+    font-size: 16px;
+    /*[normal|break-word]*/
+    word-wrap: break-word;
+    color: #1890ff !important;
+    /*[normal|bold]*/
+    font-weight: normal;
+    border-bottom: none;
+  }
+  
+  /*================链接结束=============*/
+  
+  /*================图片开始=============*/
+  
+  /*图片*/
+  
+  #cnblogs_post_body img {
+    display: block;
+    margin: 5px;
+    /*图片边框圆角化*/
+    border-radius: 6px;
+    /*图片自动缩放*/
+    object-fit: contain;
+    /*图片外边框阴影化*/
+    box-shadow: 2px 2px 7px #999;
+  }
+  
+  /* 图片描述文字 仅Markdown_Nice支持 */
+  
+  #cnblogs_post_body figcaption {
+    margin-top: 10px;
+    /*块级元素，此元素前后会带有换行符*/
+    display: block;
+    text-align: center;
+    color: #999;
+    font-size: 13px;
+  }
+  
+  /*图片描述文字之前  仅Markdown_Nice支持 */
+  
+  #cnblogs_post_body figcaption:before {
+    content: "";
+    background-image: url(https://ico.skyseeker.eu.org/MarkDown_CSS-img_fig_before.png);
+    /*行内块元素*/
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-size: 18px;
+    /*背景图像不会重复*/
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    margin-bottom: -5px;
+  }
+  
+  /*================图片结束=============*/
+  
+  /*================引用开始=============*/
+  
+  /*引用块*/
+  
+  #cnblogs_post_body blockquote {
+    text-align: left;
+    border-left: 3px solid #00000066 !important;
+    background: RGBA(0, 0, 0, 0.05) !important;
+    display: block;
+    margin: 0;
+    padding: 2px 5px !important;
+  }
+  
+  /*引用块的文字内容*/
+  
+  #cnblogs_post_body blockquote p {
+    color: #777;
+    /*首行缩进*/
+    text-indent: 0em;
+  }
+  
+  #cnblogs_post_body q {
+    border-left: 6px solid #ddd;
+    padding: 0 1em;
+    color: #777;
+    quotes: none;
+  }
+  
+  /*================引用结束=============*/
+  
+  /*================列表开始=============*/
+  
+  /* 列表中的项目样式：包括无序前缀点、有序前缀数、列表内容*/
+  
+  #cnblogs_post_body li,
+  #cnblogs_post_body li p {
+    font-size: 15px;
+    font-weight: normal;
+    color: #595959;
+    margin: 0;
+  }
+  
+  #cnblogs_post_body ul,
+  #cnblogs_post_body ol {
+    font-size: 15px;
+    color: #595959;
+    margin-left: 0px;
+    margin-bottom: 0.1em;
+    padding-left: 3em;
+  }
+  
+  #cnblogs_post_body ul ul,
+  #cnblogs_post_body ol ul,
+  #cnblogs_post_body ul ol,
+  #cnblogs_post_body ol ol {
+    padding-left: 1.5em;
+  }
+  
+  #cnblogs_post_body blockquote ol,
+  #cnblogs_post_body blockquote ul {
+    padding-left: 1.5em;
+  }
+  
+  /* 有序列表--一级列表前缀数字样式 Markdown Nice*/
+  
+  #cnblogs_post_body ol li {
+    list-style-type: decimal;
+    /*[decimal|upper-roman|lower-alpha]*/
+  }
+  
+  /* 有序列表--二级列表前缀数字样式*/
+  
+  #cnblogs_post_body ol ol li,
+  #cnblogs_post_body ul ol li {
+    list-style-type: lower-roman;
+  }
+  
+  /*================列表结束=============*/
+  
+  /*================定义列表开始=============*/
+  
+  /* 定义一个定义列表 */
+  
+  #cnblogs_post_body dl {
+    padding: 0;
+  }
+  
+  /* 定义一个定义定义列表中的项目 */
+  
+  #cnblogs_post_body dl dt {
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  /* 定义定义列表中项目的描述 */
+  
+  #cnblogs_post_body dl dd {
+    margin: 0 0 1em;
+    padding: 0 1em;
+  }
+  
+  /*================定义列表结束=============*/
+  
+  /*================任务列表开始=============*/
+  
+  /*================任务列表结束=============*/
+  
+  /*================目录开始=============*/
+  
+  /*================目录结束=============*/
+  
+  /*================表格开始=============*/
+  
+  /* 定义一个表格 */
+  
+  #cnblogs_post_body table {
+    border-collapse: collapse;
+    display: table !important;
+    width: -webkit-fill-available;
+  }
+  
+  /* 定义表格的行 */
+  
+  #cnblogs_post_body table tr {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 表格的表头 */
+  
+  #cnblogs_post_body th {
+    border: 2px solid #ccc !important;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  
+  /* 表格的主体内容 */
+  
+  #cnblogs_post_body tbody {
+    margin: 10;
+    padding: 0;
+  }
+  
+  /* 表格主体内容单元 */
+  
+  #cnblogs_post_body tr td {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #595959;
+    padding: 5px 10px;
+  }
+  
+  /*隔行改变行的背景色*/
+  
+  #cnblogs_post_body table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+  }
+  
+  /*================表格结束=============*/
+  
+  /*================标题开始=============*/
+  
+  #cnblogs_post_body h1,
+  #cnblogs_post_body h2,
+  #cnblogs_post_body h3,
+  #cnblogs_post_body h4,
+  #cnblogs_post_body h5,
+  #cnblogs_post_body h6 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0px;
+    font-weight: bold;
+  }
+  
+  /* 一级标题 */
+  
+  #cnblogs_post_body h1 {
+    display: block;
+    font-size: 24px;
+    text-align: left;
+    color: #40b8fa;
+    line-height: 1.5;
+    /* 一级标题文字内容之前 h1 ::before  */
+    padding-left: 45px !important;
+    background-image: url(https://ico.skyseeker.eu.org/MarkDown_CSS-h1_before.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+  
+  /* 二级标题 */
+  
+  #cnblogs_post_body h2 {
+    display: block;
+    border-bottom: 3px solid #40b8fa;
+    font-size: 22px;
+    color: #40b8fa !important;
+    /*相对定位元素的定位是相对其正常位置。*/
+    /*  position: relative;*/
+    /* 二级标题文字内容之前 h2 ::before  */
+    padding-left: 40px !important;
+    background-image: url(https://ico.skyseeker.eu.org/MarkDown_CSS-h2_before.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    /* 二级标题 前缀 将 [#nice_h2 .prefix ] 中的[.prefix]替换为[::before]
+      /* 二级标题 前缀 将 [#nice_h2 .suffix ] 中的[.prefix]替换为[::after] */
+    /* 
+      content: "";    
+      background-image: url();
+      background-size: 20px;
+      background-repeat: no-repeat;
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      margin-left: 6px;
+      margin-right: 6px;
+      margin-bottom: -4px;
+    */
+  }
+  
+  /* 三级标题 */
+  
+  #cnblogs_post_body h3 {
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    border-bottom: 2px solid RGBA(79, 177, 249, 0.65);
+    color: #40b8fa !important;
+    /*三级标题文字内容之前 h3 ::before */
+    padding-left: 30px !important;
+    background-image: url(https://ico.skyseeker.eu.org/MarkDown_CSS-h3_before.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+  
+  /* 四级标题*/
+  
+  #cnblogs_post_body h4 {
+    font-size: 18px;
+    /* 四级标题文字内容之前 h4::before */
+    padding-left: 30px !important;
+    background-image: url(https://ico.skyseeker.eu.org/MarkDown_CSS-h4_before.png);
+    background-size: 25px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+  
+  /* 五级标题 */
+  
+  #cnblogs_post_body h5 {
+    font-size: 16px;
+    /* 五级标题文字内容之前 h4::before */
+    padding-left: 20px !important;
+    background-image: url(https://ico.skyseeker.eu.org/MarkDown_CSS-h5_before.png);
+    background-size: 15px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+  
+  /* 六级标题*/
+  
+  #cnblogs_post_body h6 {
+    font-size: 16px;
+  }
+  
+  /*================标题结束=============*/
+  
