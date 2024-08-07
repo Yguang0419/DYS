@@ -10,6 +10,7 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -21,6 +22,7 @@ import java.util.concurrent.TimeUnit;
  * 通过jwt生成token、解析、刷新token
  */
 @Component
+@Slf4j
 public class JwtUtils {
     private String secret = "daocao";
     @Autowired
@@ -38,7 +40,8 @@ public class JwtUtils {
         loginUserVO.setLoginTime(System.currentTimeMillis());
         HashMap<String, Object> Clams = new HashMap<>();
         Clams.put("token", token);
-//       TODO 调用刷新token的方法
+        log.info("设置token缓存入参：loginUserVO:{}",loginUserVO);
+//       TODO 检查reids缓存中是否有值
         refreshToken(loginUserVO);
 //        生成token
         return Jwts.builder()
