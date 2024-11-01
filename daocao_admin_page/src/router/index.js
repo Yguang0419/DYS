@@ -61,6 +61,11 @@ const constRouter = [
     path: '/404',
     hidden: true,
     component: ()=>import('@/views/404.vue')
+  },
+  {
+    path: '/dys/operates',
+    name: 'operates',
+    component:()=>import('@/views/operates.vue')
   }
   
 ]

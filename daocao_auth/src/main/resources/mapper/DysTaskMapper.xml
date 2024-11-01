@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.daocao.common.mapper.DysTaskMapper">
+
+    <!--    根据roleid批量查询菜单-->
+    <update id="changeTaskState" >
+        update dys_task
+        set Task_state = 1
+        where Task_id = #{TaskId}
+    </update>
+
+
+</mapper>
