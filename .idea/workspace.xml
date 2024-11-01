@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="dys v1.0" />
+    <list default="true" id="eac0e4af-06a1-4418-92b4-893e40598daf" name="更改" comment="dys v1.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,50 +62,50 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
-    "RunOnceActivity.CodyHistoryLlmMigration": "true",
-    "RunOnceActivity.CodyProjectSettingsMigration": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "dev__2024__8__7",
-    "jdk.selected.JAVA_MODULE": "22",
-    "last_opened_file_path": "D:/Code_Git/daocao_study-master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "583a1d8acf94085f49d42850d476ac01",
-    "ts.external.directory.path": "F:\\IntelliJ IDEA 2023.1.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev__2024__8__7&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;22&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeWorkSpace/JAVA/Daocao/daocao_stater/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;583a1d8acf94085f49d42850d476ac01&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;F:\\IntelliJ IDEA 2023.1.6\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_stater\src\main\resources" />
       <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_support\src\main\java\com\daocao\support\config\SpringSecerity" />
       <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_common\src\main\java\com\daocao\common\domain\vo" />
       <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_auth\src\main\resources\mapper" />
       <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_common\src\main\java\com\daocao\common\utils" />
-      <recent name="D:\CodeWorkSpace\JAVA\Daocao\daocao_sys_user" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.daocao.common.constants" />
@@ -126,8 +128,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="运行单个请求">
-      <method v="2" />
+    <configuration name="Handler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.daocao.sysuser.LEARN.SpringLearn.Handler" />
+      <module name="daocao_sys_user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.daocao.sysuser.LEARN.SpringLearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="运行单个请求">
       <method v="2" />
@@ -164,10 +176,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DaocaoApplication" />
+        <item itemvalue="应用程序.Handler" />
         <item itemvalue="应用程序.GMT" />
         <item itemvalue="HTTP 请求.generated-requests | #5" />
         <item itemvalue="HTTP 请求.generated-requests | #3" />
-        <item itemvalue="HTTP 请求.generated-requests | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +262,52 @@
       <workItem from="1722781642175" duration="550000" />
       <workItem from="1722843854293" duration="19000" />
       <workItem from="1722950393942" duration="4432000" />
-      <workItem from="1722994082445" duration="2214000" />
+      <workItem from="1722994082445" duration="2654000" />
+      <workItem from="1723035992945" duration="87000" />
+      <workItem from="1723036121872" duration="116000" />
+      <workItem from="1723103482089" duration="1452000" />
+      <workItem from="1723193210789" duration="1679000" />
+      <workItem from="1723382613376" duration="24000" />
+      <workItem from="1723445867959" duration="871000" />
+      <workItem from="1723614927685" duration="5168000" />
+      <workItem from="1723624387230" duration="14000" />
+      <workItem from="1723628070579" duration="6321000" />
+      <workItem from="1723684196759" duration="4599000" />
+      <workItem from="1723791959352" duration="86000" />
+      <workItem from="1723792620011" duration="17000" />
+      <workItem from="1723812128184" duration="1862000" />
+      <workItem from="1724069032860" duration="54000" />
+      <workItem from="1726127507667" duration="4961000" />
+      <workItem from="1726196140723" duration="5685000" />
+      <workItem from="1726218899579" duration="11000" />
+      <workItem from="1726303097080" duration="11999000" />
+      <workItem from="1726364991554" duration="8849000" />
+      <workItem from="1726397568880" duration="2112000" />
+      <workItem from="1726557365843" duration="98000" />
+      <workItem from="1726989727721" duration="2271000" />
+      <workItem from="1726993822404" duration="1321000" />
+      <workItem from="1727148150393" duration="11000" />
+      <workItem from="1728631785367" duration="5535000" />
+      <workItem from="1728812293163" duration="528000" />
+      <workItem from="1728834791072" duration="117000" />
+      <workItem from="1728902791435" duration="275000" />
+      <workItem from="1728907983651" duration="3875000" />
+      <workItem from="1728997369852" duration="4437000" />
+      <workItem from="1729415394829" duration="2720000" />
+      <workItem from="1729507758056" duration="3202000" />
+      <workItem from="1729582696783" duration="1155000" />
+      <workItem from="1729583880104" duration="6301000" />
+      <workItem from="1729650836074" duration="17251000" />
+      <workItem from="1729826472934" duration="12506000" />
+      <workItem from="1729861924684" duration="1826000" />
+      <workItem from="1729917519177" duration="2276000" />
+      <workItem from="1729926232592" duration="658000" />
+      <workItem from="1730014075560" duration="3643000" />
+      <workItem from="1730102272866" duration="905000" />
+      <workItem from="1730191262541" duration="1224000" />
+      <workItem from="1730275522877" duration="2946000" />
+      <workItem from="1730360987785" duration="10084000" />
+      <workItem from="1730426994133" duration="4735000" />
     </task>
     <task id="LOCAL-00001" summary="定义公共模块">
       <option name="closed" value="true" />
@@ -316,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722996287151</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="dys v1.0">
+      <option name="closed" value="true" />
+      <created>1722996626863</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722996626863</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +398,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="gitdev" />
+                        <option value="origin/dev_2024_8_7" />
                       </list>
                     </value>
                   </entry>
@@ -353,12 +418,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/controller/UmSysUserController.java</url>
-          <line>15</line>
-          <properties field="sysUserService" class="com.daocao.auth.controller.UmSysUserController" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/daocao/auth/controller/UmSysUserController.java</url>
           <line>40</line>
@@ -373,11 +432,6 @@
           <url>file://$PROJECT_DIR$/daocao_auth/src/main/java/com/dys/auth/controller/DysAuthoController.java</url>
           <line>30</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/daocao_common/src/main/java/com/daocao/common/utils/JwtUtils.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
