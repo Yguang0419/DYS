@@ -13,6 +13,9 @@ import com.daocao.sysuser.service.ISysUserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @date 石添
  * @date 2023/12/24
@@ -39,5 +42,14 @@ public class SysUserServiceImpl implements ISysUserService {
         UserInfoVO userInfoVO = new UserInfoVO();
         BeanUtil.copyProperties(umsSysUser,userInfoVO);
         return userInfoVO;
+    }
+
+    @Override
+    public List<UserInfoVO> getUsersNeedingReminder() {
+        // 示例数据，实际应用中应从数据库获取
+        List<UserInfoVO> users = new ArrayList<>();
+//        users.add(new UserInfoVO("user1"));
+//        users.add(new UserInfoVO("user2"));
+        return users;
     }
 }

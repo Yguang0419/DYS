@@ -1,28 +1,39 @@
 <template>
-  <div>
-      <el-space :fill="true"   >
-        <el-card v-for="item in boggerInfo" :key="item.boggerId" class="box-card">
-          <template #header>
-            <div class="card-header">
-              <!-- 标题 -->
-              <router-link :to="{name:'dys_detail',params:{id:item.boggerId}}" class="title-link">
-                    <h2>{{item.boggerTitle}}</h2>
+  <div class="card_content">
+    <!-- 卡片组件 -->
+    <el-space :fill="true">
+      <el-card v-for="item in boggerInfo" :key="item.boggerId" class="box-card" shadow="hover">
+        <template #header>
+          <div class="card-header">
+            <!-- 标题 -->
+            <div class="title_content">
+              <router-link :to="{ name: 'dys_detail', params: { id: item.boggerId } }" class="title-link">
+                <h2>{{ item.boggerTitle }}</h2>
               </router-link>
-
-              <el-text class="date" >{{ item.boggerCreateTime }}</el-text>
             </div>
-          </template>
-            <!-- 展示内容 -->
-             <!-- 封面 -->  
-             <!-- 内容，展示四行 -->
-             <el-text line-clamp="4">
-              <span class="markdown-body" v-html="item.boggerContent"></span>
-             </el-text>   
-        </el-card>
-      </el-space>
-    </div>
+            <!-- 浏览量 -->
+            <div class="view_count_content">
+              <el-text class="mx-1" size="large">浏览量：</el-text>
+              <el-statistic title="" :value="item.viewCount" />
+            </div>
+
+            <!-- 日期 -->
+            <div class="date_content">
+              <el-text class="date">{{ item.boggerCreateTime }}</el-text>
+            </div>
+          </div>
+        </template>
+        <!-- 展示内容 -->
+        <!-- 封面 -->
+        <!-- 内容，展示四行 -->
+        <el-text line-clamp="4">
+          <span class="markdown-body" v-html="item.boggerContent"></span>
+        </el-text>
+      </el-card>
+    </el-space>
+  </div>
 </template>
-  <script setup>
+<script setup>
     import { nextTick,onMounted,ref } from 'vue'
     import {serachAllBoggers} from '@/api/dys/Boggers'
     import 'github-markdown-css';
@@ -59,6 +70,7 @@
           boggerContent:marked( item.boggerContent),//将md格式转换成html格式
           boggerCreateTime: item.boggerCreateTime,
           boggerTags: item.boggerTags,
+          viewCount:item.viewCount
         };
         // 将博客信息对象添加到boggerInfo中
         boggerInfo.value.push(blogItem); // 使用 .value 访问并修改数组
@@ -69,32 +81,48 @@
   };
   
 
- 
   </script>
-  
-  
-  
-  <style scoped>
-    .card-header {
-    display: flex;
-    flex-direction: column; /* 内容垂直堆叠 */
-    justify-content: center; /* 水平居中对齐 */
-    align-items: center; /* 垂直居中对齐 */
-    position: relative; /* 设置相对定位，以便绝对定位按钮 */
-    height: 50px;
-  }
-
-  .date {
-    position: absolute; /* 绝对定位按钮 */
-    bottom: 0; /* 置底 */
-    right: 0; /* 靠右 */
-  }
-  .title-link {
-  color: black;
-  text-decoration: none;
+<style scoped>
+  .card_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
-.title-link:hover {
-  text-decoration: underline;
+.box-card {
+  width: 100%;
+  /* max-width: 300px; */
+}
+
+.card-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 水平居中 */
+  text-align: center; /* 文本居中 */
+}
+
+.title_content {
+  margin-top: 1px;
+}
+.title-link {
+  color: black; /* 初始颜色为黑色 */
+  text-decoration: none; /* 去掉下划线 */
+}
+.title-link:hover,
+.title-link:active {
+  color: yellowgreen; /* 鼠标悬停或点击时颜色变为蓝色 */
+}
+.view_count_content {
+  margin-top: 4px; /* 减小间隙 */
+  display: flex;
+  align-items: center; /* 垂直居中对齐 */
+  justify-content: center; /* 水平居中对齐 */
+}
+
+.date_content {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
   </style>

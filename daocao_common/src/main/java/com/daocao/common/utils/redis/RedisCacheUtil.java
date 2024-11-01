@@ -215,4 +215,15 @@ public class RedisCacheUtil {
         return redisTemplate.keys(pattern);
     }
 
+    /**
+     * 阅读量加一
+     *
+     * @param key 缓存的键值
+     * @return 增加后的阅读量
+     */
+    public Integer incrementReadCount(final String key) {
+        Long increment = redisTemplate.opsForValue().increment(key);
+        return increment.intValue();
+    }
+
 }

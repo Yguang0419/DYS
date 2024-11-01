@@ -10,6 +10,7 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -20,6 +21,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 通过jwt生成token、解析、刷新token
  */
+@Slf4j
 @Component
 public class JwtUtils {
     private String secret = "daocao";
@@ -62,8 +64,9 @@ public class JwtUtils {
     public loginUserVO getLoginUser(HttpServletRequest request) {
 //        通过jwt加密过的
         String token = request.getHeader("Daocao-Authonrization");
-        System.out.println("----------------------token===>"+token);
+        log.info("token值：===========================》"+token);
         if(StrUtil.isNotEmpty(token)){
+
 //        解析token
             Claims claims = parseToken(token);
             String parsseToken =(String) claims.get("token");
@@ -81,6 +84,7 @@ public class JwtUtils {
             }
             return UserVO;
         }
+        log.error("token ===============================>为空");
         return null;
     }
 //    刷新token

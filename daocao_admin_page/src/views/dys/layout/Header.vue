@@ -11,7 +11,7 @@
                 <template #title>工作空间</template>
                 <el-menu-item index="2-1" @click="addNewText()">发布新文章</el-menu-item>
                 <el-menu-item index="2-2" @click="addNewTask()">新增任务</el-menu-item>
-                <el-menu-item index="2-3">其他</el-menu-item>
+                <el-menu-item index="2-3" @click="toOperate()">场景操作</el-menu-item>
                 <el-sub-menu index="2-4">
                     <template #title>开发中</template>
                     <el-menu-item index="2-4-2">暂无</el-menu-item>
@@ -35,6 +35,7 @@
     import { ref } from 'vue'
     import  Task from '../Task.vue'
     import TaskForm from '../TaskForm.vue'
+
     // 引入router
     // import { useRouter } from 'vue-router'
     const router = useRouter()
@@ -50,6 +51,11 @@
         dialogFormVisible.value=true;
         drawer.value=true
         console.log("addNewTask");
+    }
+    //场景操作
+    const toOperate =function(){
+       
+        router.push("/dys/operates")
     }
 </script>
 

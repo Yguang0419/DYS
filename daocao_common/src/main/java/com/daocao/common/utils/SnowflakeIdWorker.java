@@ -1,5 +1,6 @@
 package com.daocao.common.utils;
 import java.util.concurrent.ThreadLocalRandom;
+
 public class SnowflakeIdWorker {
         private final long workerId;
         private final long datacenterId;

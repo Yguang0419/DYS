@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface IDysTaskService {
 //    根据用户查询所有的任务
-    List<DysTask> serachAllTask();
+    List<TaskVO> serachAllTask();
 //    新增任务
 //    int addTask(TaskVO dysTask);
 //    改变任务的状态

@@ -3,9 +3,11 @@ package com.daocao.sysuser.controller;
 import com.daocao.common.domain.entity.DysBoggers;
 import com.daocao.common.response.DaocaoResult;
 import com.daocao.common.service.IDysBoggersService;
+import com.daocao.support.OperationLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -22,6 +24,7 @@ public class DysBoggersController {
      * 获取该用户的所有博客,获取当前登录的用户id,都在SecurityContextHolder中存储
      */
     @GetMapping
+    @OperationLog
     public DaocaoResult serachAllBoggers(){
         List<DysBoggers> boggersList = dysBoggersService.searchBoggersById();
         return DaocaoResult.success(boggersList);
@@ -44,5 +47,25 @@ public class DysBoggersController {
        else {
            return DaocaoResult.error("发布失败");
         }
+    }
+    /*
+    * 记录阅读量
+    * */
+    @GetMapping("/{id}")
+    public DaocaoResult getView(@PathVariable Long id) {
+        long count = dysBoggersService.getView(id);
+        return DaocaoResult.success(count);
+    }
+
+    /*增加阅读量
+    * */
+    @GetMapping("/{id}/increase")
+    public DaocaoResult increaseView(@PathVariable Long id) {
+
+        boolean b = dysBoggersService.addView(id);
+        if (!b) {
+            return DaocaoResult.error("增加失败");
+        }
+        return DaocaoResult.success();
     }
 }

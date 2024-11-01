@@ -23,3 +23,10 @@ export function addBogger(data){
         data:data
     })
 }
+// 增加越读量
+export function addViewCount(BoggerId){
+    return request({
+        url:`dys/boggers/${BoggerId}/increase`,
+        method:'GET'
+    })
+}

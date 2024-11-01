@@ -20,6 +20,7 @@ import org.springframework.stereotype.Service;
 public class AuthServiceImpl implements IAuthService {
     private  final AuthenticationManager authenticationManager;
     private final JwtUtils jwtUtils;
+//    如果类中有多个构造器，并且希望Spring使用其中一个特定的构造器进行依赖注入，那么你需要在那个构造器上添加 @Autowired 注解。
     public AuthServiceImpl(AuthenticationManager authenticationManager, JwtUtils JwtUtils) {
         this.authenticationManager = authenticationManager;
         this.jwtUtils = JwtUtils;

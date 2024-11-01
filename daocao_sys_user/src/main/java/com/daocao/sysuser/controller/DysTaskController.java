@@ -6,6 +6,8 @@ import com.daocao.common.response.DaocaoResult;
 import com.daocao.common.service.IDysTaskService;
 import com.daocao.common.service.TaskVOService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,12 +17,15 @@ import java.util.List;
  * 处理关于任务清单的事宜,taskVO用于新增任务，task负责其他，
  */
 @RestController
+
 @RequestMapping("dys/task")
 public class DysTaskController {
     @Autowired
     private final IDysTaskService dysTaskService;
     @Autowired
     private final TaskVOService taskVOService;
+
+
 //TODO: taskVO用于新增任务，task负责其他，
     public DysTaskController(IDysTaskService dysTaskService, TaskVOService taskVOService) {
         this.dysTaskService = dysTaskService;
@@ -46,7 +51,8 @@ public class DysTaskController {
      */
     @GetMapping
     public DaocaoResult searchTask(){
-        List<DysTask> dysTasks = dysTaskService.serachAllTask();
+        List<TaskVO> dysTasks = dysTaskService.serachAllTask();
+        System.out.println("--------------------------------------->!!!!");
         return DaocaoResult.success(dysTasks);
 
     }
@@ -62,4 +68,6 @@ public class DysTaskController {
             return DaocaoResult.error("系统异常");
         }
     }
+
+
 }

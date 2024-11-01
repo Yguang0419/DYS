@@ -1,10 +1,13 @@
 spring:
+#  redis-server.exe redis.windows.conf
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/Daocao?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     username: root
     password: root
-
+#    服务器打包配置
+#    username: dys
+#    password: root123
   # 配置redis
   data:
     redis:

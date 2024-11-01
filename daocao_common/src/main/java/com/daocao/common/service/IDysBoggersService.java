@@ -15,5 +15,11 @@ public interface IDysBoggersService extends IService<DysBoggers> {
     //新增博客
     int addBoggers(DysBoggers dysBoggers);
 
+    //统计阅读量
+    int getView(Long BoggerId);
+
+    //阅读量+1
+    boolean addView(Long BoggerId);
+
 
 }

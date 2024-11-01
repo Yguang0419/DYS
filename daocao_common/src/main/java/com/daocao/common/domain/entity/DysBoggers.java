@@ -24,7 +24,7 @@ public class DysBoggers implements Serializable {
     private String boggerContent;
     private String boggerCoverImage;
     private Long boggerAuthor;
-
+    private Integer viewCount;
     @TableField(fill = FieldFill.INSERT_UPDATE)
     private LocalDateTime boggerCreateTime;
     private List<String> boggerTags;

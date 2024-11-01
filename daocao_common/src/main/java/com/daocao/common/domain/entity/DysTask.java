@@ -8,11 +8,12 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 @Data
 @TableName("dys_task")
-public class DysTask {
+public class DysTask implements Serializable {
     @TableId
     private Long TaskId;
     @NotNull(message = "任务名称不能为空")

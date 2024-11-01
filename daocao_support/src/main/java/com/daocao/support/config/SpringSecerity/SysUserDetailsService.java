@@ -10,6 +10,7 @@ import com.daocao.common.domain.vo.loginUserVO;
 import com.daocao.common.mapper.UmsMenuMapper;
 import com.daocao.common.mapper.UmsSysUserMapper;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -20,6 +21,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @Service
 public class SysUserDetailsService implements UserDetailsService {
+    @Autowired
     private  final UmsSysUserMapper umsSysUserMapper;
     private final UmsMenuMapper umsMenuMapper;
 

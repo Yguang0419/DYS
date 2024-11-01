@@ -45,6 +45,7 @@
 </template>
 
 <script setup>
+
     //导入ref
     import { ref } from 'vue'
     // 导入login方法
@@ -53,11 +54,10 @@
     // 引入token方法
     import { setToken } from '@/utils/token';
     // 引入store
-    // import { useMnuStore } from '@/stores/menu.js'
-    // import { useUserStore } from '@/stores/user.js'
     import { TaskStore } from '@/stores/Task.js'
     import { useRouter } from 'vue-router';
     // 引入router
+    import XLR from '@/views/dys/XLR.vue'
     // import { useRouter } from 'vue-router'
     const router = useRouter()
     // 构建store
@@ -81,9 +81,8 @@
     }
 
     // 定义登录方法
-    function handlelogin() {
-        console.log("登录")
-        
+    function handlelogin() { 
+        console.log("登录信息",LoginForm.value)
         // 调用login方法
         login(LoginForm.value).then(res => {
             console.log("登录===>", res)
@@ -92,16 +91,12 @@
                 // 将token存储seesion中
                 setToken("daocaoToken", res.data.token)
                 getTaskList()
-
                 // router.addRoute({
                 //     path: '/index',
                 //     component: () => import('../layout/index.vue')
                 // })
                 router.push("/dys/index")
-
-
             }
-
         })
     }
         

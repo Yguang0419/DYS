@@ -3,6 +3,7 @@ package com.daocao.auth.controller;
 import com.daocao.common.domain.dto.LoginDto;
 import com.daocao.common.service.IAuthService;
 import com.daocao.common.response.DaocaoResult;
+import com.daocao.support.OperationLog;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -29,6 +30,7 @@ public class AuthController {
      * @return
      */
     @PostMapping("sys")
+    @OperationLog
 //    @RequestBody: 表示loginDto参数的值将从请求体中获取，并自动转换为LoginDto对象。
     public DaocaoResult sysLogin( @RequestBody LoginDto loginDto){
         System.out.println("--------------------");
