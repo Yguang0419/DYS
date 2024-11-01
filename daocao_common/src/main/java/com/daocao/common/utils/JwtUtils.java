@@ -23,6 +23,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Slf4j
 @Component
+@Slf4j
 public class JwtUtils {
     private String secret = "daocao";
     @Autowired
@@ -40,7 +41,8 @@ public class JwtUtils {
         loginUserVO.setLoginTime(System.currentTimeMillis());
         HashMap<String, Object> Clams = new HashMap<>();
         Clams.put("token", token);
-//       TODO 调用刷新token的方法
+        log.info("设置token缓存入参：loginUserVO:{}",loginUserVO);
+//       TODO 检查reids缓存中是否有值
         refreshToken(loginUserVO);
 //        生成token
         return Jwts.builder()

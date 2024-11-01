@@ -24,6 +24,7 @@ public class DysAuthoController {
     @PostMapping("/login")
     public DaocaoResult dysUserLogin(String account,String password){
 //调用service层登录方法
+        log.info("账户名：{}，密码：{}", account,password);
         System.out.println("msg = " + account);
         String msg = DysUserService.login(account, password);
         return DaocaoResult.success(msg);

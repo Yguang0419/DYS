@@ -33,9 +33,9 @@ public class AuthController {
     @OperationLog
 //    @RequestBody: 表示loginDto参数的值将从请求体中获取，并自动转换为LoginDto对象。
     public DaocaoResult sysLogin( @RequestBody LoginDto loginDto){
-        System.out.println("--------------------");
+        log.info("auth/sys接口入参:{}",loginDto);
         String token = AuthService.login(loginDto);
-        log.info("loginToken================================>{}",token);
+        log.info("生成的token:{}",token);
         return DaocaoResult.success().put("token",token);
     }
 //    @GetMapping

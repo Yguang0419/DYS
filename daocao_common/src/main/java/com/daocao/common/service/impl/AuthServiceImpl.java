@@ -44,12 +44,13 @@ public class AuthServiceImpl implements IAuthService {
         loginUserVO loginUser = (loginUserVO) authenticate.getPrincipal();
 //        不为空，生成token
         if(ObjectUtil.isNull(loginUser)){
+            log.info("认证失败");
            throw new ServiceException(HttpStatus.UNAUTHORIZED,"认证失败");
         }
 //        用jwt创建token
         String token = jwtUtils.createToken(loginUser);
 
-        log.info("token======>{}",token);
+        log.info("jwt创建token:{}",token);
         return token;
 
         } catch (BadCredentialsException e) {
